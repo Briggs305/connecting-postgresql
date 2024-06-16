@@ -13,8 +13,8 @@ const port = 3000; // Default port, you can customize
 const pool = new Pool({
   user: 'postgres',
   host: 'localhost',
-  database: 'aura_cinema_db',
-  password: 'COmfirmed14',
+  database: 'database',//replace 
+  password: 'password',//replace
   port: 5432,
 });
 
